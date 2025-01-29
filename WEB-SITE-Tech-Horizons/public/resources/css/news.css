@@ -1,0 +1,458 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #25252a;
+    font-family: 'Ubuntu', sans-serif;
+    width: 100%;
+    min-height: 100vh;
+    color: #fff;
+    overflow-y: overlay;
+}
+
+::-webkit-scrollbar{
+    width: 8px;
+}
+::-webkit-scrollbar-track{
+    background-color: transparent;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #999;
+    border-radius: 100px;
+}
+.topHeadlines .right .topNews::-webkit-scrollbar{
+    width: 6px;
+}
+.topHeadlines .right .topNews::-webkit-scrollbar-thumb{
+    background-color: #777;
+}
+
+
+.header{
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 20px 50px;
+    background-color: #0b0b11;
+    transition: 0.3s;
+}
+.header.sticky{
+    padding-block: 10px;
+    box-shadow: inset 0 -1.5px 3px rgba(255,255,255,0.3);
+}
+.logo{
+    font-size: 45px;
+    font-weight: 700;
+    cursor: pointer;
+}
+nav ul{
+    display: flex;
+}
+nav div.bar{
+    display: none;
+    position: absolute;
+    right: 80px;
+    margin-top: -10px;
+    font-size: 25px;
+    cursor: pointer;
+}
+nav div.bar.active .open{
+    display: none;
+}
+nav div.bar .close{
+    display: none;
+}
+nav div.bar.active .close{
+    display: initial;
+}
+select {
+    background-color: black; /* Arrière-plan noir */
+    color: white;           /* Texte blanc */
+    border: 1px solid #fff0;
+    font-size: 16px;
+    padding: 0 10px;
+}
+
+option {
+    background-color: black; /* Arrière-plan noir des options */
+    color: white;           /* Texte blanc des options */
+}
+nav ul li{
+    list-style: none;
+    margin: 0 15px;
+    padding: 0 10px;
+    border-left: 1px solid #fff0;
+    border-right: 1px solid #fff0;
+    transition: 0.3s;
+}
+nav ul li:hover{
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+.topHeadlines{
+    padding: 100px 50px 50px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+}
+.topHeadlines .left{
+    padding: 10px 30px;
+}
+.topHeadlines .left > .title{
+    font-size: 20px;
+    padding: 15px;
+    text-align: center;
+}
+.topHeadlines .left .img{
+    width: 100%;
+    height: 400px;
+    background-color: #a04;
+}
+.topHeadlines .left .img img{
+    width: 100%;
+    height: 100%;
+}
+.topHeadlines .left .text{
+    padding: 20px 15px 10px;
+}
+.topHeadlines .left .text .title a{
+    text-decoration: none;
+}
+.topHeadlines .left .text .title a h2{
+    font-size: 20px;
+    color: #fff;
+    letter-spacing: 1px;
+    display: inline;
+    cursor: pointer;
+}
+.topHeadlines .left .text .title a h2:hover{
+    text-decoration: underline;
+}
+.topHeadlines .left .text .description{
+    font-size: 15px;
+    margin-top: 10px;
+    color: #aaa;
+    letter-spacing: 1px;
+}
+.topHeadlines .right{
+    padding: 10px;
+    width: 1005;
+    height: 500px;
+}
+.topHeadlines .right > .title{
+    font-size: 20px;
+    padding: 15px;
+    text-align: center;
+}
+.topHeadlines .right .topNews{
+    padding: 7px;
+    height: 85%;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    overflow-y: scroll;
+}
+.topHeadlines .right .topNews .news{
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+}
+.topHeadlines .right .topNews .news .img{
+    width: 170px;
+    height: 100%;
+    max-height: 120px;
+    min-height: 90px;
+    background-color: #a04;
+    margin-bottom: 35px;
+
+}
+.topHeadlines .right .topNews .news .img img{
+    width: 100%;
+    height: 100%;
+}
+.topHeadlines .right .topNews .news .text{
+    margin-inline: 10px;
+    display: flex;
+    align-items: center;
+}
+.topHeadlines .right .topNews .news .text .title a{
+    text-decoration: none;
+}
+.topHeadlines .right .topNews .news .text .title a p{
+    color: #fff;
+    display: inline;
+}
+.topHeadlines .right .topNews .news .text .title a p:hover{
+    text-decoration: underline;
+}
+.footer{
+    width: 100%;
+    padding: 50px 50px 0px;
+    background-color: #0a0a18;
+    min-height: 200px;
+}
+.footer .box{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-around;
+}
+.footer .box .left{
+    display: flex;
+    justify-content: space-around;
+    padding-right: 20px;
+}
+.footer .box .left .categories > p {
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+.footer .box .left .categories div{
+    margin-bottom: 15px;
+    width: max-content;
+}
+.footer .box .left .categories div p{
+    font-size: 20px;
+    color: #ddd;
+    cursor: pointer;
+    padding: 0 10px;
+    border-left: 1px solid #fff0;
+    border-right: 1px solid #fff0;
+    transition: 0.3s;
+}
+.footer .box .left .categories div p:hover{
+    color: #fff;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+}
+.footer .contact{
+    margin-left: 10px;
+}
+.footer .contact p{
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+.footer .contact div{
+    font-size: 17px;
+    margin-bottom: 15px;
+    color: #aaa;
+}
+.footer .icon{
+    margin-top: 20px;
+    padding: 20px;
+}
+.footer .icon i{
+    font-size: 25px;
+    margin-right: 20px;
+    color: #aaa;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.footer .icon i:hover{
+    color: #fff;
+    transform: scale(1.2);
+}
+.footer .newsletter p{
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+.footer .newsletter .email{
+    display: flex;
+}
+.footer .newsletter .email input{
+    width: 400px;
+    padding: 12px 25px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    margin-right: 20px;
+}
+.footer .newsletter .email button{
+    padding: 10px 25px;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: transparent;
+    border-color: #fff;
+    border-style: solid;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.footer .newsletter .email button:hover{
+    color: #0a0a18;
+    background-color: #fff;
+}
+.footer .copyrights{
+    font-size: 18px;
+    text-align: center;
+    padding: 20px;
+    letter-spacing: 1px;
+}
+
+/* Slider container */
+.slider-container {
+    position: relative;
+    overflow: hidden;
+    align-items: center;
+}
+.slider {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+.slider-item {
+    flex: 0 0 100%;
+}
+.slider-nav {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 50%;
+}
+.slider-nav.prev {
+    left: 10px;
+}
+.slider-nav.next {
+    right: 10px;
+}
+
+/* Styles spécifiques pour le slider de la page 2 */
+:root {
+    --duration: 30s;
+    --theme-count: 8; /* Ajustez ce nombre en fonction du nombre de thèmes */
+    --theme-duration: 50s;
+}
+
+.page2 {
+    width: 100%;
+    background-color: #16161d;
+    min-height: 100vh;
+    padding: 50px;
+    overflow: hidden;
+}
+
+.page2 .news {
+    padding: 30px 0;
+    border-bottom: 1px solid #555;
+    position: relative;
+
+}
+
+.page2 .news:last-child {
+    border-bottom: none;
+}
+
+.page2 .news > .title h2 {
+    font-size: 40px;
+    cursor: pointer;
+    display: inline;
+    position: absolute;
+    left: 100%;
+    white-space: nowrap;
+    animation: slideTitle var(--theme-duration) linear infinite;
+    animation-delay: calc((var(--theme-pos) - 1) * (var(--theme-duration) / var(--theme-count)));
+}
+
+.page2 .news > .title h2:hover {
+    text-decoration: underline;
+}
+
+.page2 .news .newsBox {
+    width: 100%;
+    margin-top: 60px;
+    display: flex;
+    flex-wrap: nowrap;
+    position: relative;
+    overflow: hidden;
+}
+
+.page2 .news .newsBox.slider {
+    mask-image: linear-gradient(to right, transparent, #fff 10% 90%, transparent);
+}
+
+.page2 .news .newsBox .newsCard {
+    margin: 20px;
+    flex: 0 0 calc(100% / 5);
+    position: relative;
+    left: 100%;
+    animation: autoRunSlider var(--duration) linear infinite;
+    animation-delay: calc((var(--pos) - 1) * (var(--duration) / var(--items-count)));
+}
+
+.page2 .news .newsBox .newsCard .img {
+    width: 100%;
+    height: 150px;
+    background-color: #a04;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.page2 .news .newsBox .newsCard .img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.page2 .news .newsBox .newsCard .text {
+    padding: 10px;
+}
+
+.page2 .news .newsBox .newsCard .text .title a {
+    text-decoration: none;
+}
+
+.page2 .news .newsBox .newsCard .text .title a p {
+    font-size: 15px;
+    color: #fff;
+    display: inline;
+    cursor: pointer;
+}
+
+.page2 .news .newsBox .newsCard .title a p:hover {
+    text-decoration: underline;
+}
+
+.page2 .news .newsBox:hover .newsCard {
+    animation-play-state: paused;
+}
+
+.page2 .news .newsBox:hover .newsCard .img img {
+    transform: scale(1.1);
+}
+
+@keyframes autoRunSlider {
+    from {
+        left: 100%;
+    }
+    to {
+        left: -100%;
+    }
+}
+
+@keyframes slideTitle {
+    from {
+        left: 100%;
+    }
+    to {
+        left: -100%;
+    }
+}
+/*style pour les theme */
+

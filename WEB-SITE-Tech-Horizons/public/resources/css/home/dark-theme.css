@@ -1,0 +1,103 @@
+body {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+header {
+    background-color: #1e1e1e;
+
+}
+
+header .logo {
+    color: #080808;
+}
+
+header .login {
+    color: #121212;
+}
+
+header .login:hover {
+    background-color: #e0e0e0;
+}
+
+.nav a {
+    color: #ffffff;
+}
+
+.home {
+    background-color: #1e1e1e;
+}
+
+.home-text {
+    color: #ffffff;
+}
+
+.about {
+    background-color: #1e1e1e;
+}
+
+.about .titleText, .about .title-text {
+    color: #ffffff;
+}
+
+.btn2 {
+    background-color: #ffffff;
+    color: #121212;
+    border: 0.8px solid #ffffff;
+}
+
+.btn2:hover {
+    background-color: #e0e0e0;
+    color: #121212;
+}
+
+.post-box {
+    background-color: #1e1e1e;
+    color: #ffffff;
+}
+
+.post-title, .post-description, .post-date {
+    color: #ffffff;
+}
+
+.profile-name {
+    color: #ffffff;
+}
+
+footer {
+    background-color: #1e1e1e;
+    color: #ffffff;
+}
+
+.footer-container h2::before {
+    background-color: #ffffff;
+}
+
+.sci li a {
+    background-color: #ffffff;
+    color: #121212;
+}
+
+.sci li a:hover {
+    background-color: #e0e0e0;
+}
+
+.quicklinks ul li a {
+    color: #ffffff;
+}
+
+.quicklinks ul li a:hover {
+    color: #e0e0e0;
+}
+
+.contactBx .info li span {
+    color: #ffffff;
+}
+
+.contactBx .info li a {
+    color: #ffffff;
+}
+
+.contactBx .info li a:hover {
+    color: #e0e0e0;
+}
