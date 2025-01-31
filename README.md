@@ -1,112 +1,49 @@
 # WEB-SITE-Tech-Horizons
- <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tech Horizons - README</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-            line-height: 1.6;
-            background-color: #f4f4f9;
-            color: #333;
-        }
+ # Tech Horizons - Online Magazine Management
 
-        h1, h2 {
-            color: #2c3e50;
-        }
+## Contributors
 
-        .contributors {
-            display: flex;
-            gap: 15px;
-            margin-bottom: 20px;
-        }
+| Contributor          | Photo |
+|----------------------|-------|
+| **Wail Chairi Mahjor**  | ![Wail Chairi](readme/wail-chairi-photo.jpg) |
+| **Abderrahmane Hafdane** | ![Abderrahmane Hafdane](readme/abderrahmane-hafdane-photo.jpg) |
+| **Yassir Aharroun**      | ![Yassir Aharroun](readme/yassir-aharroun-photo.jpg) |
 
-        .profile {
-            text-align: center;
-        }
+## Project Overview
 
-        .profile img {
-            width: 70px;
-            height: 70px;
-            border-radius: 50%;
-            border: 2px solid #2c3e50;
-        }
+Tech Horizons is a web application designed to manage an online magazine. It provides an intuitive and secure platform for users to explore cutting-edge technological innovations, such as Artificial Intelligence, IoT, Cybersecurity, Virtual and Augmented Reality, and more.
 
-        .project-summary {
-            margin: 20px 0;
-        }
+The application supports four user roles:
+- **Guest**: View theme information, request subscription, and access public issues.
+- **Subscriber**: Manage subscriptions, browse issues, track history, rate articles, and suggest publications.
+- **Theme Manager**: Manage theme-related subscriptions, approve articles, and analyze statistics.
+- **Editor**: Manage magazine issues, activate/deactivate articles, and oversee user statistics.
 
-        .welcome-image {
-            margin: 20px 0;
-            text-align: center;
-        }
+## Technologies Used
 
-        .welcome-image img {
-            max-width: 100%;
-            height: auto;
-            border: 2px solid #2c3e50;
-            border-radius: 8px;
-        }
+- PHP
+- MySQL
+- HTML, CSS, JavaScript
+- Laravel Framework
 
-        footer {
-            margin-top: 30px;
-            text-align: center;
-            font-size: 0.9em;
-            color: #555;
-        }
-    </style>
-</head>
-<body>
-    <h1>Tech Horizons - Online Magazine Management</h1>
+## Supervised By
 
-    <section class="contributors">
-        <div class="profile">
-            <img src="path/to/wail-chairi-photo.jpg" alt="Wail Chairi">
-            <p>Wail Chairi Mahjor</p>
-        </div>
-        <div class="profile">
-            <img src="path/to/abderrahmane-hafdane-photo.jpg" alt="Abderrahmane Hafdane">
-            <p>Abderrahmane Hafdane</p>
-        </div>
-        <div class="profile">
-            <img src="path/to/yassir-aharroun-photo.jpg" alt="Yassir Aharroun">
-            <p>Yassir Aharroun</p>
-        </div>
-    </section>
+- Pr. M'hamed AIT KBIR  
+- Pr. Yasyn EL YUSUFI
 
-    <h2>Project Overview</h2>
-    <div class="project-summary">
-        <p>
-            Tech Horizons is a web application designed to manage an online magazine. It provides an intuitive and secure platform for users to explore cutting-edge technological innovations, such as Artificial Intelligence, IoT, Cybersecurity, Virtual and Augmented Reality, and more. 
-        </p>
-        <p>
-            The application supports four user roles: Guest, Subscriber, Theme Manager, and Editor. Each role has unique capabilities, including subscribing to themes, managing articles, publishing magazine issues, and analyzing statistics. The platform also features recommendations based on user interests and browsing history.
-        </p>
-    </div>
+## Academic Year
 
-    <h2>Technologies Used</h2>
-    <ul>
-        <li>PHP</li>
-        <li>MySQL</li>
-        <li>HTML, CSS, JavaScript</li>
-        <li>Laravel Framework</li>
-    </ul>
+2024/2025
 
-    <h2>Supervised By</h2>
-    <p>Pr. M'hamed AIT KBIR and Pr. Yasyn EL YUSUFI</p>
+## Welcome Page Preview
 
-    <h2>Academic Year</h2>
-    <p>2024/2025</p>
+![Welcome Page Preview](readme/welcome-page-image.jpg)
 
-    <h2>Welcome Page Preview</h2>
-    <div class="welcome-image">
-        <img src="path/to/welcome-page-image.jpg" alt="Welcome Page Preview">
-    </div>
+---
 
-    <footer>
+**Created by:**  
+Wail Chairi Mahjor, Abderrahmane Hafdane, Yassir Aharroun
+
         <p>Created by Wail Chairi, Abderrahmane Hafdane, Yassir Aharroun</p>
     </footer>
 </body>
