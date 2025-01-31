@@ -1,13 +1,12 @@
-# WEB-SITE-Tech-Horizons
- # Tech Horizons - Online Magazine Management
+# Tech Horizons - Online Magazine Management
 
 ## Contributors
 
 | Contributor          | Photo |
 |----------------------|-------|
-| **Wail Chairi Mahjor**  | ![Wail Chairi](readme/wail-chairi-photo.jpg) |
-| **Abderrahmane Hafdane** | ![Abderrahmane Hafdane](readme/abderrahmane-hafdane-photo.jpg) |
-| **Yassir Aharroun**      | ![Yassir Aharroun](readme/yassir-aharroun-photo.jpg) |
+| **Wail Chairi Mahjor**  | <img src="readme/wail-chairi-photo.jpg" alt="Wail Chairi" style="width: 100px; height: 100px; border-radius: 50%;"> |
+| **Abderrahmane Hafdane** | <img src="readme/abderrahmane-hafdane-photo.jpg" alt="Abderrahmane Hafdane" style="width: 100px; height: 100px; border-radius: 50%;"> |
+| **Yassir Aharroun**      | <img src="readme/yassir-aharroun-photo.jpg" alt="Yassir Aharroun" style="width: 100px; height: 100px; border-radius: 50%;"> |
 
 ## Project Overview
 
@@ -43,9 +42,3 @@ The application supports four user roles:
 
 **Created by:**  
 Wail Chairi Mahjor, Abderrahmane Hafdane, Yassir Aharroun
-
-        <p>Created by Wail Chairi, Abderrahmane Hafdane, Yassir Aharroun</p>
-    </footer>
-</body>
-</html>
-
