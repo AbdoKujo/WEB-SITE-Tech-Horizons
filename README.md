@@ -4,8 +4,8 @@
 
 | Contributor          | Photo |
 |----------------------|-------|
-| **Wail Chairi Mahjor**  | <img src="readme/wail-chairi-photo.jpg" alt="Wail Chairi" style="width: 100px; height: 100px; border-radius: 50%;"> |
 | **Abderrahmane Hafdane** | <img src="readme/abderrahmane-hafdane-photo.jpg" alt="Abderrahmane Hafdane" style="width: 100px; height: 100px; border-radius: 50%;"> |
+| **Wail Chairi Mahjor**  | <img src="readme/wail-chairi-photo.jpg" alt="Wail Chairi" style="width: 100px; height: 100px; border-radius: 50%;"> |
 | **Yassir Aharroun**      | <img src="readme/yassir-aharroun-photo.jpg" alt="Yassir Aharroun" style="width: 100px; height: 100px; border-radius: 50%;"> |
 
 ## Project Overview
